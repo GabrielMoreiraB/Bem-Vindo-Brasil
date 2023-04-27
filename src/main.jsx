@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-
 import './lib/I18n.jsx'
 
 import {RouterProvider, createBrowserRouter} from 'react-router-dom';
