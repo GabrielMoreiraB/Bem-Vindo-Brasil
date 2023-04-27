@@ -1,7 +1,10 @@
-import React from "react";
-
+import './routes.css';
 const Inicio = () => {
-    return ( <h1>inicio</h1> );
+    return ( 
+    <div className="img-home">
+        <img src="/img/inicio.jpg" alt="" />
+    </div>
+        );
 }
  
 export default Inicio;

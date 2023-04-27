@@ -21,9 +21,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{t('title')}</h1>
-      <button type='button' onClick={handChangeLanguage}>{t('button')}</button>
-      <Navbar/>
+      <div className="cabecalho">
+        <h1>{t('title')}</h1>
+        <button className='change' type='button' onClick={handChangeLanguage}>{t('button')}</button>
+        <h2>{t('where')}</h2>
+        <Navbar/>
+      </div>
+      
       <Outlet/>
       
     </div>

@@ -1,6 +1,8 @@
 {
     "translation": {
         "title": "Welcome to Brazil",
-        "button": "Mude o Idioma"
+        "button": "Mude o Idioma",
+        "home": "Home",
+        "where": "Where are we going to meet now?"
     }
 }

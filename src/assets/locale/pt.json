@@ -1,6 +1,8 @@
 {
     "translation": {
         "title": "Seja Bem Vindo ao Brasil",
-        "button": "Change the Language"
+        "button": "Change the Language",
+        "home": "Inicio",
+        "where": "Onde Vamos Conhecer agora?"
     }
 }

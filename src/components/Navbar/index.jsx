@@ -1,12 +1,19 @@
-import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
+import "./Navbar.css"
 
 const Navbar = () => {
+    const {t} = useTranslation();
     return ( 
         <nav>
-            <Link to='/'> Inicio</Link>
-            <Link to='/MG'> MG</Link>
-            <Link to='/TO'> TO</Link>
-            <Link to='/RS'> RS</Link>
+            <NavLink to='/' className={({ isActive }) => `
+            link ${isActive ? 'linkdestacado' : ""}`}> {t('home')}</NavLink>
+            <NavLink to='/MG' className={({ isActive }) => `
+            link ${isActive ? 'linkdestacado' : ""}`}> MG</NavLink>
+            <NavLink to='/TO' className={({ isActive }) => `
+            link ${isActive ? 'linkdestacado' : ""}`}> TO</NavLink>
+            <NavLink to='/RS' className={({ isActive }) => `
+            link ${isActive ? 'linkdestacado' : ""}`}> RS</NavLink>
         </nav>
      );
 }
