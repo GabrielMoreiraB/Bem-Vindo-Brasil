@@ -1,0 +1,11 @@
+.imgs{
+    width: 35vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.namecity{
+    background-color: rgba(240, 248, 255, 0.351);
+}
