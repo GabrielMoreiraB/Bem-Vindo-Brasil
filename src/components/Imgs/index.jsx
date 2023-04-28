@@ -1,13 +1,13 @@
 import './Imgs.css'
 
-const Imgs = () => {
+const Imgs = ({url, name}) => {
     return ( 
-        <div className="imgs" style={{backgroundImage: `url(${'/img/mg-bh.jpg'})`,
+        <div className="imgs" style={{backgroundImage: `url(${url})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '40vh',
         }}>
-            <h1 className='namecity'>Belo Horizonte</h1>
+            <h1 className='namecity'>{name}</h1>
         </div>
      );
 }
